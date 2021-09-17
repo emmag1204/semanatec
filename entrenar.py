@@ -41,4 +41,7 @@ entrenamientoDatagen = ImageDataGenerator(
        horizontalFlip = True,
     )
 
-validacionDatagen = ImagenDataGenetator()
+validacionDatagen = ImagenDataGenetator(
+   rescale = 1./255,
+)
+imagenEntrenamiento = 
