@@ -3,6 +3,7 @@
 Created on Thu Sep 16 21:21:57 2021
 
 @author: A00227534
+emma g alfaro a01740229
 """
 import sys
 import os
@@ -38,4 +39,4 @@ entrenamientoDatagen = ImageDataGenerator(
        shearRange = 0.3
        zoomRange = 0.3
     )
-
+#hola amo one direction 
