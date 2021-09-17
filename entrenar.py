@@ -35,8 +35,10 @@ lr = 0.005
 
 # preprocesamiento de imagenes
 entrenamientoDatagen = ImageDataGenerator(
-       rescale = 1./255 
-       shearRange = 0.3
-       zoomRange = 0.3
+       rescale = 1./255,
+       shearRange = 0.3,
+       zoomRange = 0.3,
+       horizontalFlip = True,
     )
-#hola amo one direction 
+
+validacionDatagen = ImagenDataGenetator()
